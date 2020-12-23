@@ -56,7 +56,7 @@ class Board
            true
         else
            false
-        end #index is in raange (0..8) and position_taken? == false
+        end #index is in range (0..8) and position_taken? == false
     end
 
     # def token

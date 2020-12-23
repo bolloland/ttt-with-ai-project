@@ -6,10 +6,12 @@ module Players
 
     class Human < Player
 
-        
-
-        def move(input)
-            input = gets:chomp
+        def move(board)
+            puts "Choose space 1 thru 9"
+            input = gets.strip
+            p '*'*99
+            p input
+            return input
             # @cells[index] = token
         end
 
